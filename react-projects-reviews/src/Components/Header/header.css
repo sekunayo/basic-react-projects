@@ -1,0 +1,27 @@
+h2 {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    line-height: 1;
+    font-size: 2.5rem;
+    color: #102a42;
+
+}
+.underline{
+        height: 4px;
+        width: 80px;
+        background-color: #49a6e9;
+}
+.underline-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

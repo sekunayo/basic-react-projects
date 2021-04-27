@@ -1,0 +1,40 @@
+.app-container {
+  display: grid;
+  grid-template-rows: 20vh auto;
+}
+@media (max-width: 575.99px) {
+ .app-container {
+   width: 300px;
+ }
+
+}
+
+@media (min-width: 576px) {
+  .app-container {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .app-container {
+    width: 620px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .app-container {
+    width: 620px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .app-container {
+    width: 620px;
+  }
+}
