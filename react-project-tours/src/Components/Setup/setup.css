@@ -1,0 +1,11 @@
+.setup-container{
+    display: grid;
+    grid-template-rows: 30vh auto;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, auto);
+    grid-row-gap: 40px;
+}
