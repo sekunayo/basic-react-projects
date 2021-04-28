@@ -1,0 +1,14 @@
+.app-container {
+  width: 70vw;
+  display: grid;
+  grid-template-rows: 10vh 15vh auto;
+  padding-top: 80px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}

@@ -1,0 +1,20 @@
+.underline {
+    height: 4px;
+    width: 100px;
+    background-color: #c59d5f;
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    line-height: 1.25;
+    text-align: center;
+    font-size: 2.5rem;
+}
