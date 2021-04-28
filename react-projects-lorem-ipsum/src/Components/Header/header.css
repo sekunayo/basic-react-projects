@@ -1,0 +1,9 @@
+h3 {
+    text-transform: uppercase;
+    color: #063251;
+    font-size: 1.75rem;
+    line-height: 1;
+    letter-spacing: 1.6px;
+    padding-top: 20px;
+    text-align: center;
+}

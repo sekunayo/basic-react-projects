@@ -1,0 +1,13 @@
+.app-container {
+  display: grid;
+  grid-template-rows: 10vh 10vh auto;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+.paragraph-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-row-gap: 20px;
+}
