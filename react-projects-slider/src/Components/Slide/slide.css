@@ -1,0 +1,123 @@
+.review-card {
+    transition: all 0.3s linear;
+    display: grid;
+    grid-template-rows: auto auto auto 10vh auto;
+    justify-content: center;
+    grid-row-gap: 20px;
+    height: 50vh;
+}
+.review-card.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.review-card.lastSlide {
+    transform: translateX(-100%);
+}
+
+.review-card.nextSlide {
+    transform: translateX(100%);
+}
+
+.name {
+    line-height: 1;
+    font-size: 1rem;
+    letter-spacing: 1.6px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ba5d2c;
+}
+
+.work-title {
+    font-size: 0.85rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #324d67;
+    line-height: 1.25;
+    font-size: 1rem;
+}
+
+.about-paragraph {
+    color: #617d98;
+    line-height: 2;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding: 20px 0px;
+}
+
+.image-box {
+    height: 150px;
+    width: 150px;
+}
+
+.image-box img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    border: 4px solid #bcccdc;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+}
+
+.quote-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-icon i {
+    font-size: 3rem;
+    color: #ba5d2c;
+}
+
+.left-arrow,
+.right-arrow {
+    transform: translateY(-50%);
+    background: #617d98;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.left-arrow-container,
+.right-arrow-container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: .85em;
+    color: #ba5d2c;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

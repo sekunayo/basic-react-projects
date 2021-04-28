@@ -1,0 +1,7 @@
+.app-container {
+  display: grid;
+  grid-template-rows: 10vh auto;
+  width: 70vw;
+  padding-top: 50px;
+}
+
