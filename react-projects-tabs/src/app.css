@@ -1,0 +1,10 @@
+
+.app-container {
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20vh 50vh;
+  justify-content: center;
+  /* align-items: center; */
+  grid-row-gap: 30px;
+}
