@@ -1,0 +1,14 @@
+.text-container {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 1.75rem;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+}
+

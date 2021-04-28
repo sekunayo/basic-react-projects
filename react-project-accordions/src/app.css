@@ -1,0 +1,12 @@
+
+
+.app {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 10vw;
+  padding: 30px;
+  grid-column-gap: 30px;
+
+}
+
