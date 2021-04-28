@@ -1,0 +1,19 @@
+.app-container {
+  display: grid;
+  grid-template-rows: 15vh auto;
+  height: 100vh;
+}
+
+/* .color-container {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(96px, 1fr));
+  grid-template-columns: repeat(auto-fill,1fr);
+  min-height: calc(100vh - 100px);
+
+} */
+.color-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+}
